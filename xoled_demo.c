@@ -921,6 +921,7 @@ void xoled_demo ( void ){
 //	xOLED_printf(0,0,Font_ASCII_1608,1,(T8*)"12345678901234567890123456");
 //	xOLED_printf(0,16,Font_ASCII_1608,1,(T8*)"12345678901234567890123456");
 //							xOLED_Refresh_Gram( 4, 0 );
+	xOLED_Refresh_Gram( 0, 0 );
 	while(1){
 		
 			switch(	Task ){
